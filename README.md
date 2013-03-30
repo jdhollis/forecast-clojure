@@ -30,7 +30,13 @@ FORECAST_KEY=insert-your-api-key-here
 
 ```clojure
 (require '[forecast-clojure.core :as forecast])
+
+(forecast "37.8267" "-122.423")
+(forecast "37.8267" "-122.423" :time 1362974400)
+(forecast "37.8267" "-122.423" :params {:units "si" :jsonp "..."})
 ```
+
+Please refer to the [forecast.io API documentation](https://developer.darkskyapp.com/docs/v2) for information on the full response properties.
 
 ## License
 
