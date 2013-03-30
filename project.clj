@@ -1,4 +1,4 @@
-(defproject forecast-clojure "1.0.0"
+(defproject forecast-clojure "1.0.2"
   :description "Clojure library for retrieving data from the Forecast API"
   :url "https://github.com/jdhollis/forecast-clojure"
   :license {:name "Eclipse Public License"

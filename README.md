@@ -7,7 +7,7 @@ A Clojure library for retrieving data from the [forecast.io](https://developer.d
 `forecast-clojure` is available as a Maven artifact from [Clojars](http://clojars.org/forecast-clojure):
 
 ```clojure
-[forecast-clojure 1.0.0]
+[forecast-clojure 1.0.2]
 ```
 
 ## Configuration
