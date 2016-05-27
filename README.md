@@ -29,7 +29,7 @@ FORECAST_KEY=insert-your-api-key-here
 ## Usage
 
 ```clojure
-(require '[forecast-clojure.core :as forecast])
+(require '[forecast-clojure.core :refer :all])
 
 (forecast "37.8267" "-122.423")
 (forecast "37.8267" "-122.423" :time 1362974400)
