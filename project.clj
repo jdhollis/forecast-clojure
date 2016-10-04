@@ -1,5 +1,5 @@
 (defproject forecast-clojure "1.0.4"
-  :description "Clojure library for retrieving data from the Forecast API"
+  :description "Clojure library for retrieving data from the Dark Sky API"
   :url "https://github.com/jdhollis/forecast-clojure"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"

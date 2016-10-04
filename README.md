@@ -1,6 +1,6 @@
 # forecast-clojure
 
-A Clojure library for retrieving data from the [forecast.io](https://developer.darkskyapp.com/docs/v2) API.
+A Clojure library for retrieving data from the [darksky.net](https://darksky.net/dev/docs) API.
 
 ## Installation
 
@@ -12,7 +12,7 @@ A Clojure library for retrieving data from the [forecast.io](https://developer.d
 
 ## Configuration
 
-The library fetches your forecast.io API key from the environment using [Environ](https://github.com/weavejester/environ). You can set your key in one of two ways.
+The library fetches your darksky.net API key from the environment using [Environ](https://github.com/weavejester/environ). You can set your key in one of two ways.
 
 In `~/.lein/profiles.clj`:
 
@@ -36,10 +36,10 @@ FORECAST_KEY=insert-your-api-key-here
 (forecast "37.8267" "-122.423" :params {:units "si" :exclude "daily,alerts" :callback "..."})
 ```
 
-Please refer to the [forecast.io API documentation](https://developer.darkskyapp.com/docs/v2) for information on the full response properties.
+Please refer to the [darksky.net API documentation](https://darkskyapp.net/dev/docs) for information on the full response properties.
 
 ## License
 
-Copyright © 2013 J.D. Hollis
+Copyright © 2016 J.D. Hollis
 
 Distributed under the Eclipse Public License, the same as Clojure.
